@@ -11,7 +11,7 @@ const About = () => {
                 <p className="mt-5 text-[#4D4C7B]">
                     We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.
                 </p>
-                <button className="btn bg-[#FFC637]  md:text-lg  text-black mt-8">Appointment
+                <button className="btn bg-[#FFC637]  md:text-lg  text-black mt-8">Learn more
                         <GoArrowUpRight /></button>
             </div>
             <div className="relative">

@@ -2,6 +2,7 @@ import About from "../Components/About";
 import Banner from "../Components/Banner";
 import CareOfPatient from "../Components/CareOfPatient";
 import Nav from "../Components/Nav";
+import Service from "../Components/Service";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                 <Banner />
                 <CareOfPatient />
                 <About />
+                <Service/>
             </div>
         </div>
     );
