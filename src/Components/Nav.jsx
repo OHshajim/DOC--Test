@@ -9,7 +9,7 @@ const Nav = () => {
 
     </>
     return (
-        <div className="xl:mx-32 lg:mx-28 sm:mx-20 ">
+        <div className="">
             <div className="navbar bg-base-100 workSans md:text-lg text-base ">
                 <div className="navbar-start">
                     <div className="dropdown">

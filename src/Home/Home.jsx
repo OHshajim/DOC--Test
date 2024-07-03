@@ -1,3 +1,4 @@
+import Banner from "../Components/Banner";
 import Nav from "../Components/Nav";
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
         <div>
             <div className="container mx-auto">
             <Nav/>
+            <Banner/>
             </div>
         </div>
     );
