@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <div>
             <div className=' flex justify-center my-3 lg:my-10'>
-                <div className=' h-[40vh]  lg:h-[75vh]   flex items-center  justify-center  w-full relative'>
+                <div className='    flex items-center  justify-center  w-full relative'>
                     
                     <img src="/public/Rectangle 5.png" alt="" 
                     className="w-full h-full" />
