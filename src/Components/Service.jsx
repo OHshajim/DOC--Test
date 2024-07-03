@@ -17,7 +17,7 @@ const Service = () => {
                 </div>
                 <div className="flex justify-end ">
                     <div className="relative w-full">
-                        <img src="/public/Rectangle 27-2.png" alt="" className="rounded-[20px] w-full" />
+                        <img src="/Rectangle 27-2.png" alt="" className="rounded-[20px] w-full" />
                         <div className="absolute bottom-5 left-5">
                             <div className="bg-[#020043] rounded-[20px] p-5 h-[144px] max-w-xs opacity-50 hover:opacity-100 flex">
                                 <div>
@@ -38,7 +38,7 @@ const Service = () => {
 
                 <div className="flex ">
                     <div className="relative w-full">
-                        <img src="/public/Rectangle 27-1.png" alt="" className="rounded-[20px] w-full" />
+                        <img src="/Rectangle 27-1.png" alt="" className="rounded-[20px] w-full" />
                         <div className="absolute bottom-5 left-5">
                             <div className="bg-[#020043] rounded-[20px] p-5 h-[144px] max-w-xs opacity-50 hover:opacity-100 flex">
                                 <div>
@@ -58,7 +58,7 @@ const Service = () => {
                 </div>
                 <div className="flex ">
                     <div className="relative w-full">
-                        <img src="/public/Rectangle 27.png" alt="" className="rounded-[20px] w-full" />
+                        <img src="/Rectangle 27.png" alt="" className="rounded-[20px] w-full" />
                         <div className="absolute bottom-5 left-5">
                             <div className="bg-[#020043] rounded-[20px] p-5 h-[144px] max-w-xs opacity-50 hover:opacity-100 flex">
                                 <div>

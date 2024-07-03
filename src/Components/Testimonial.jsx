@@ -1,4 +1,3 @@
-import { FcRating } from "react-icons/fc";
 import SectionTitle from "../Shared/SectionTitle";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,6 +10,10 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
+import { Rating } from '@smastrom/react-rating'
+
+import '@smastrom/react-rating/style.css'
+
 const Testimonial = () => {
     const feedbacks = [
         {
@@ -18,7 +21,7 @@ const Testimonial = () => {
             name: "Sarah D",
             passion: "IT Professional",
             rating: 5,
-            image: "/public/Ellipse 10 (2).png",
+            image: "/Ellipse 10 (2).png",
             title: "Expertise and Compassion Combined",
             comment: "I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way."
         },
@@ -27,7 +30,7 @@ const Testimonial = () => {
             name: "Michael R",
             passion: "Business Executive",
             rating: 4,
-            image: "/public/Ellipse 10.png",
+            image: "/Ellipse 10.png",
             title: "Life-Saving Care, Life-Changing Experience",
             comment: "My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life."
         },
@@ -36,7 +39,7 @@ const Testimonial = () => {
             name: "David S",
             passion: "Lawyer",
             rating: 5,
-            image: "/public/Ellipse 10 (1).png",
+            image: "/Ellipse 10 (1).png",
             title: "A Partner in Health and Wellness",
             comment: "As a busy professional, I appreciate the convenience and quality of care I receive at [Healthcare Provider Name]. From telemedicine consultations to routine check-ups, they've become my trusted partner in health and"
         }
@@ -46,7 +49,7 @@ const Testimonial = () => {
             name: "David S",
             passion: "Lawyer",
             rating: 5,
-            image: "/public/Ellipse 10 (1).png",
+            image: "/Ellipse 10 (1).png",
             title: "A Partner in Health and Wellness",
             comment: "As a busy professional, I appreciate the convenience and quality of care I receive at [Healthcare Provider Name]. From telemedicine consultations to routine check-ups, they've become my trusted partner in health and"
         }
@@ -67,7 +70,7 @@ const Testimonial = () => {
                 className="mySwiper"
             >
                 {feedbacks.map(feedback => <SwiperSlide key={feedback._id}>
-                    <div className='flex flex-col items-center pb-10 bg-[#FFFFF5] rounded-2xl h-[241px]'>
+                    <div className='flex flex-col items-center pb-10 bg-[#FFFFF5] rounded-2xl  h-[260px]'>
                         <div className="w-full  px-7 py-5 " >
                             <h4 className="text-[#020043] text-[19px] font-medium">{feedback.title}</h4>
                             <p className='text-xs sm:text-base my-2 '>{feedback.comment}</p>
@@ -87,10 +90,12 @@ const Testimonial = () => {
                                             <h4 className='text-sm font-bold'>
                                                 {feedback.name} , <span className=' text-[#4D4C7B] font-normal'>{feedback.passion}</span>
                                             </h4>
-                                            <FcRating
-                                                style={{ maxWidth: 180 }}
+                                            <Rating
+                                                style={{ maxWidth: 100 }}
                                                 value={feedback.rating}
-                                                readOnly
+                                                
+                                                // initialRating={feedback.rating}
+                                                // readonly
                                             />
                                         </div>
                                     </div>

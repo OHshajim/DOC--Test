@@ -4,10 +4,10 @@ const Discount = () => {
     return (
         <div className="lg:my-32 my-20 z-0">
             <div className="relative">
-            <img src="/public/Frame.png" alt="" className="absolute top-0 -left-52 z-0 opacity-30" />
-            <img src="/public/Frame (1).png" alt="" className="absolute top-0 -right-2 z-0 opacity-30" />
+            <img src="/Frame.png" alt="" className="absolute top-0 -left-52 z-0 opacity-30" />
+            <img src="/Frame (1).png" alt="" className="absolute top-0 -right-2 z-0 opacity-30" />
                 <div className="relative">
-                    <img src="/public/Rectangle 32.png" alt="" className="w-full rounded-[32px]" />
+                    <img src="/Rectangle 32.png" alt="" className="w-full rounded-[32px]" />
                     <div className="absolute rounded-[32px] top-0 w-full h-full bg-gradient-to-r from-[#020043] to-[#0200432a] ">
                         <div className="flex justify-between p-14">
                             <div>
@@ -24,7 +24,7 @@ const Discount = () => {
                                 </div>
                             </div>
                             <div>
-                                <img src="/public/logo light.png" alt="logo" />
+                                <img src="/logo light.png" alt="logo" />
                             </div>
                         </div>
                     </div>

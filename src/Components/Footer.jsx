@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="bg-[#020043] mt-40 py-20 ">
             <footer className="footer container mx-auto text-[#FFFFF5]">
                 <aside className="">
-                    <img src="/public/logo light.png" alt="" />
+                    <img src="/logo light.png" alt="" />
                     <p>
                         123 Main Street Anytown, USA <br />
                         Postal Code: 12345

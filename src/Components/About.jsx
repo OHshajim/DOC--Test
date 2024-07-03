@@ -15,7 +15,7 @@ const About = () => {
                         <GoArrowUpRight /></button>
             </div>
             <div className="relative">
-                <img src="/public/Rectangle 24.png" alt="" />
+                <img src="/Rectangle 24.png" alt="" />
                 <div className="absolute -bottom-14 -left-14">
                     <div className="bg-[#343268] rounded-[32px] p-9 h-[210px] max-w-sm">
                         <h4 className="text-2xl font-medium text-white ">

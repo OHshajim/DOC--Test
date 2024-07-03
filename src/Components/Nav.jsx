@@ -20,7 +20,7 @@ const Nav = () => {
                             {listItem}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost md:text-3xl text-lg font-bold px-0"><img src="/public/logo dark.png" alt="" /></a>
+                    <a className="btn btn-ghost md:text-3xl text-lg font-bold px-0"><img src="/logo dark.png" alt="" /></a>
                 </div>
                 <div className="navbar-center hidden xl:flex">
                     <ul className="menu menu-horizontal px-1 text-[#020043] gap-3 font-semibold text-base">
